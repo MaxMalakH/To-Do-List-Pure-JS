@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    background-image: url(textile-2918844_960_720.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.progress-bar-vessel {
+    width: 40px;
+    height: 100px;
+}
+
+.water {
+    background-color: #ffa54f81;
+    width: 100%;
+    transition: height 1s;
+}
+
+.done-bar-vessel {
+    width: 40px;
+    height: 100px;
+}
+
+.acid {
+    background-color: #8b592b81;
+    width: 100%;
+    transition: height 1s;
+}
+
+.to-do {
+    list-style: none;
+}
+
+.done {
+    list-style: none;
+}
+
+.inpt {
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 30%;
+}
+
+.second {
+    margin-top: 40px;
+}
+
+.delete {
+    background-color: red;
+    border-radius: 50%;
+    opacity: 80%;
+    width: 10%;
+    margin-left: 20px;
+}
+
+span {}
+
+.to-do li {
+    margin-bottom: 7px;
+}
+
+.done li {
+    margin-top: 7px;
+}

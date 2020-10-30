@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class='main'>
+        <div class='wrapper'>
+            <!--TEMPLATE-->
+            <template id="task-template">
+            <li class="todo">
+                
+            <input type="checkbox" class="todo-list-input">
+            <span></span>
+            <button class = 'delete'>X</button>
+    </li>
+  </template>
+            <!--STRUCTURE-->
+            <h1>In Progress</h1>
+            <div class='progress-bar-vessel'>
+                <div class='water'></div>
+            </div>
+            <ul class='to-do'></ul>
+
+            <form action="" class='formTodo'>
+                <input required class='inpt' type="text"><input type='submit' value='Add' class='add'>
+            </form>
+
+            <h1 class='second'>Done</h1>
+            <div class='done-bar-vessel'>
+                <div class='acid'></div>
+            </div>
+            <ul class='done'></ul>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
